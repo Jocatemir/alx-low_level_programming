@@ -1,16 +1,12 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
-
 /**
  *main - Determines either greater than 5, is less than 6, or is 0
  *
  *Return: Always 0 (Success)
  */
-int main(void)
-  
+int main(void)  
 {
   
   int final;
@@ -34,11 +30,6 @@ int main(void)
   else if (final == 0)
     
     {printf("Last digit of %d is %d and is 0\n", n, final);
-      
-
-      
     }
-  
   return (0);
-  
 }
