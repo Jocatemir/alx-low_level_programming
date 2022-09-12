@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - me just wan do magic here i no send anybody
+ * main - just wat to write letter a -z
  *
- * Return: always 0 (success)
+ * Return: 0 always (success)
  *
  */
 
