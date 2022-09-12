@@ -13,7 +13,7 @@ int main(void)
 
 	for (j = 0; j <= 98; j++)
 	{
-	for (z = 1; z <= 99; z++)
+	for (z = j + 1; z <= 99; z++)
 	{
 	putchar((j / 10) + '0');
 	putchar((j % 10) + '0');
