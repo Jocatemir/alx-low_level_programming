@@ -16,19 +16,19 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		for (j = 1; j < 9; j++)
-		{
-			for (z = 2; z < 10; z++)
-			{
-				putchar((i % 10) + '0');
-				putchar((j % 10) + '0');
-				putchar((z % 10) + '0');
-				if (i == 7 && j == 8 && z == 9)
-					continue;
-				putchar(',');
-				putchar(' ');
-			}
-		}
+	for (j = 1; j < 9; j++)
+	{
+	for (z = 2; z < 10; z++)
+	{
+		putchar((i % 10) + '0');
+		putchar((j % 10) + '0');
+		putchar((z % 10) + '0');
+		if (i == 7 && j == 8 && z == 9)
+		continue;
+		putchar(',');
+		putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
