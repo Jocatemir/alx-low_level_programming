@@ -18,6 +18,6 @@ int main(void)
 	putchar (z - 10 + 'A');
 	z++;
 	}
-	putchar(0);
+	putchar(10);
 	return (0);
 }
