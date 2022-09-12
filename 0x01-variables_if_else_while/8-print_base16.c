@@ -16,8 +16,6 @@ int main(void)
 	putchar(z + '0');
 	else if (z > 41)
 	putchar (z - 10 + 'A');
-	else if (z > 41)
-	putchar(z - 10 + 'A');
 	z++;
 	}
 	putchar(0);
