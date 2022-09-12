@@ -3,7 +3,7 @@
  * main - writing all single digit number
  *
  *
- * return: 0 always
+ * Return: 0 always
  *
  */
 
