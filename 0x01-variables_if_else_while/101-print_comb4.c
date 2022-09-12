@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - writing two different number
  *
- * Description: print 3 combination of numbers
+ * Description: combining 3 different digit
  *
  * Return: 0 always
- *
  */
 
 int main(void)
@@ -16,9 +15,9 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-	for (j = 1; j < 9; j++)
+	for (j = i + 1 ; j < 9; j++)
 	{
-	for (z = 2; z < 10; z++)
+	for (z = j + 1; z < 10; z++)
 	{
 		putchar((i % 10) + '0');
 		putchar((j % 10) + '0');
