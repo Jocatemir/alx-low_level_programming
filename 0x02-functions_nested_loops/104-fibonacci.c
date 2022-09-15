@@ -16,7 +16,7 @@ int main(void)
 	while (fib1)
 	{
 	printf(" ,%d", fib2);
-	fib = b1 + fib2
+	fib = fib1 + fib2;
 	fib1= fib2;
 	fib2 = fib;
 	}
