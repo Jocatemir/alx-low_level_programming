@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print a to z
+ * print_alphabet - print a to z
  *
  * Return: Always 0.
  *
@@ -14,8 +14,7 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; i++)
 
 	{
-	p(i);
+	_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
