@@ -1,8 +1,6 @@
-#ifndef _main_h_
-
-#define _main_h_
-
-
+#ifndef MAIN_H
+  
+#define MAIN_H
 
 void reset_to_98(int *n);
 
@@ -81,4 +79,4 @@ int _putchar(char);
 
 char *_strcpy(char *dest, char *src);
 
-#endif
+#endif /*array and string*/
