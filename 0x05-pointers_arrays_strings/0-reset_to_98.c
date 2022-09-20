@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *reset_to_98 - Function that switch from pointer to an integer
+ * reset_to_98 - Function that switch from pointer to an integer
  *
- *@n: This is the parameter that will inturn be the arguement 
+ * @n: This is the parameter that will inturn be the arguement
  * Return: void on success
  */
 
