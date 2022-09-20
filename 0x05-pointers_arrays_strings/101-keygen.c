@@ -18,7 +18,6 @@ int main(void)
 	time_t t;
 
 	srand((int) time(&t));
-
 	while (ascii > 126)
 	{
 	random = rand() % 126;
@@ -32,6 +31,7 @@ int main(void)
 	{
 	i--;
 	}
+
 	for (j = 0; j <= i; j++)
 	{
 	printf("%c", password[j]);

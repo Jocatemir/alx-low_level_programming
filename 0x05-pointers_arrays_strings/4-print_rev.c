@@ -14,6 +14,7 @@ void print_rev(char *s)
 	while (s[num])
 	{
 	num++;
+	}
 	while (num--)
 	{
 	_putchar(s[num]);
