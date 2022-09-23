@@ -1,22 +1,24 @@
 #include "main.h"
 
+#include <stdio.h>
 /**
- * _strncpy - Entry point
- * @dest: copy to
- * @src: copy from
- * @n: input number of char
- * Return: Always 0 
- */
+ *_strcat - concatenates two strings
+ * @dest: pointer char
+ * @src: pointer char
+ * Return: void
+*/
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int i;
+int a = -1, i;
+for (i = 0; dest[i] != '\0'; i++)
+;
 
-	for (i = 0; src[i] != '\0'; i++)
-		if (i < n)
-		dest[i] = src[i];
-		while (i < n)
-		dest[i++] = '\0';
-	return (dest);
+do {
+        a++;
+        dest[i] = src[a];
+        i++;
+} while (src[a] != '\0');
 
+return (dest);
 }
