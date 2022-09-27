@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _string - pointer to char
+ * set_string - pointer to char
  *
  * @s: pointer
  * @to: char
