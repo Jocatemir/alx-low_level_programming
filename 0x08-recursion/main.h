@@ -1,6 +1,7 @@
-#ifndef _MAIN_H
+#ifndef _main_h_
 
-#define _MAIN_H
+#define _main_h_
+
 
 void _puts_recursion(char *s);
 
@@ -22,4 +23,4 @@ int is_palindrome(char *s);
 
 int wildcmp(char *s1, char *s2);
 
-#endif //programmming on Recution
+#endif
