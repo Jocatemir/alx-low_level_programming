@@ -1,8 +1,5 @@
 #include "main.h"
 
-int lengthc(char *s);
-int palindrome(char str[], int st, int end);
-
 /**
  * is_palindrome - Entry Point
  * @s: input
