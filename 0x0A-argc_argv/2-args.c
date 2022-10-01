@@ -2,8 +2,8 @@
 
 /**
  * main - A program that Prints all arguments it receives.
- * @argc: Input arguments 
- * @argv: An array of pointers 
+ * @argc: Input arguments
+ * @argv: An array of pointers
  * return: Always 0.
  */
 

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - Write a program that multiplies two numbers. 
+ * main - Write a program that multiplies two numbers
  * @argc: Input arguments
  * @argv: pointers to the arguments.
  * Return: If the program receives two arguments - 0.
