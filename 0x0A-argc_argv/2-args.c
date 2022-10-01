@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - A program that Prints all arguments it receives.
+ * main - Function program that Prints all arguments
  * @argc: Input arguments
  * @argv: An array of pointers
- * return: Always 0.
+ * Return: 0 always
  */
 
 int main(int argc, char *argv[])
