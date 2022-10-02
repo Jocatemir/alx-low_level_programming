@@ -2,18 +2,18 @@
 
 /**
  * _strlen_recursion - Returns the length of a string.
- * @s: The string to be measured.
+ * @s: address operator.
  * Return: The length of the string.
 */
 
 int _strlen_recursion(char *s)
 {
-	int len = 0;
+	int lenght = 0;
 
 	if (*s)
 	{
-		len++;
-		len += _strlen_recursion(s + 1);
+		lenght++;
+		_strlen_recursion(s + 1);
 	}
-	return (len);
+	return (lenght);
 }
