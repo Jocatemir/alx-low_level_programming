@@ -1,9 +1,6 @@
-#include <stdio.h>
+#ifndef PI_H
+#define PI_H
 
-#define PI(3.14159265359)
+#define PI 3.14159265359
 
-int main()
-{
-	printf("%d", PI);
-	return (0);
-}
+#endif
