@@ -1,38 +1,29 @@
 #!/usr/bin/python3
-"""
-The perimeter of the island
-"""
+"""Defines an island perimeter measuring function."""
 
 
 def island_perimeter(grid):
-    """
-    Function that calculate the perimeter of the island
-    described in grid.
+    """Return the perimiter of an island.
+    The grid represents water by 0 and land by 1.
     Args:
-       grid: Matrix that emulate the island grid.
-    Return:
-       Returns the perimeter of the island described in grid.
+        grid (list): A list of list of integers representing an island.
+    Returns:
+        The perimeter of the island defined in grid.
     """
-    count = 0
-    connection_h = 0
-    connection_v = 0
-    # Count horizontal connection of numbers 1
-    for _list in grid:
-        i = 1
-        for number in _list:
-            if number == 1:
-                count += 1
-                if i < len(_list) and number == _list[i]:
-                    connection_h += 1
-            i += 1
-    # Count vertical connection of numbers 1
-    for index, _list in enumerate(grid):
-        for i in range(0, len(_list)):
-            if index < len(grid) - 1:
-                if _list[i] == 1 and _list[i] == grid[index + 1][i]:
-                    connection_v += 1
-    total = count * 4
-    horizontal = connection_h * 2
-    vertical = connection_v * 2
-    perimeter = total - horizontal - vertical
+    perimeter = 0
+    for row in range(len(grid)):
+        for cell in range(len(grid[row])):
+            if grid[row][cell] == 1:
+                if cell != (len(grid[row]) - 1) and not grid[row][cell + 1]:
+                    perimeter += 1
+                if not cell or cell == len(grid[row]) - 1:
+                    perimeter += 1
+                if row == len(grid) - 1 or not row:
+                    perimeter += 1
+                if cell != 0 and not grid[row][cell - 1]:
+                    perimeter += 1
+                if row and not grid[row - 1][cell]:
+                    perimeter += 1
+                if row != (len(grid) - 1) and not grid[row + 1][cell]:
+                    perimeter += 1
     return perimeter
